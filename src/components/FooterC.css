@@ -1,0 +1,129 @@
+footer
+{
+    background-color: rgba(0, 0, 0, 0.913);
+    color: white;
+    padding: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+
+footer div
+{
+    /* border: 2px solid red; */
+    margin: 10px;
+}
+.footer-company
+{
+    color: rgb(189, 185, 185);
+}
+.footer-company h2
+{
+    font-weight: 500;
+    color: white;
+}
+
+.footer-company p:nth-child(2)
+{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.footer-useful-links ul,.footer-our-services ul
+{
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.footer-useful-links ul li,.footer-our-services ul li
+{
+    margin-bottom: 20px;
+   color: rgb(189, 185, 185); ;
+}
+.footer-useful-links ul li::before,.footer-our-services ul li::before
+{
+    content: ">";
+    margin-right: 10px;
+    color: #1bbd36;
+    font-weight: 500;
+}
+
+.footer-form p
+{
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+.footer-form .subscribe input
+{
+    padding: 15px;
+    border: none;
+    outline: none;
+    width: 100%;
+    border-radius: 5px;
+}
+.footer-form .subscribe
+{
+    position: relative;
+}
+.footer-form .subscribe button
+{
+    padding: 15px;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    background-color: #1bbd36;
+    color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+/* Footer Ends */
+
+.copyright
+{
+    background-color: black;
+    color: white;
+    padding: 20px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright-icons ul li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.copyright-icons ul li a
+{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left: 15px;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(74, 72, 72);
+    color: white;
+    padding: 5px;
+    padding-left: 7px;
+    border-radius: 3px;
+}
+
+.arrow
+{
+    background-color: #1bbd36;
+    padding: 9px;
+    width: 35px;
+    height:40px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 200;
+    border-radius: 3px;
+    color: white;
+}
+
+.arrow a
+{
+    color: white;
+}

@@ -1,0 +1,102 @@
+.pricing-heading {
+    background-color: #1bbd36;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: white;
+    margin-top: 100px;
+}
+
+.pricing {
+    /* border: 2px solid red; */
+    margin: 50px 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing .card {
+    border: 1px solid rgba(211, 205, 205, 0.445);
+    width: 315px;
+    height: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 18px;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.pricing .card-header,
+.pricing .card-body,
+.pricing .card-footer {
+    /* border: 2px solid blue; */
+    text-align: center;
+
+}
+
+.pricing .card-header,
+.pricing .card-footer {
+    padding: 20px;
+    background-color: rgba(211, 211, 211, 0.153);
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+
+.pricing .card .card-header {
+    position: relative;
+}
+
+.pricing .card .card-header .advanced {
+    background-color: #1bbd36;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 2px 30px;
+    transform: rotate(50deg);
+    position: absolute;
+    right: -36px;
+    top: 23px;
+
+}
+
+.pricing .card-body {
+    padding: 10px;
+}
+
+.pricing .card-body ul li {
+    list-style-type: none;
+    margin-bottom: 19px;
+}
+
+.pricing .card-footer a {
+
+    background-color: #1bbd36;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: all .4s;
+}
+
+.pricing .card-footer a:hover {
+    background-color: #2ae149;
+}
+
+.pricing .card .card-body ul li span {
+    font-size: 28px;
+    font-weight: bold;
+    color: #1bbd36;
+}
+
+.pricing .card .card-body ul li sup {
+    color: #1bbd36;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pricing .card .card-header-bg {
+    background-color: #1bbd36;
+    color: white;
+}

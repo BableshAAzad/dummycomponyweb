@@ -56,22 +56,22 @@ function FooterC() {
                     <ul>
                         <li>
                             <Link to="/">
-                                <i className="fa fa-twitter" aria-hidden="true"></i>
+                            <i class="fa-brands fa-twitter"></i>
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                <i className="fa fa-facebook-official" aria-hidden="true"></i>
+                            <i class="fa-brands fa-facebook"></i>
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                <i className="fa fa-instagram" aria-hidden="true"></i>
+                            <i class="fa-brands fa-instagram"></i>
                             </Link>
                         </li>
                         <li>
                             <Link to="/">
-                                <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+                            <i class="fa-brands fa-linkedin"></i>
                             </Link>
                         </li>
                     </ul>

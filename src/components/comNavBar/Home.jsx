@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import "./../comNavBarCss/Home.css"
+import HomeCardsC from '../HomeCards/HomeCardsC';
 
 function Home() {
   return (
@@ -35,102 +36,66 @@ function Home() {
       {/* <!-- Provident Ends --> */}
       {/* <!-- Cards Starts --> */}
       <section className="cards">
-        <div className="card" >
-          <div className="card-content">
-            <i className="fa fa-dribbble" aria-hidden="true"></i>
-            <h2>Lorem Ipsum</h2>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <i className="fa fa-file-text-o" aria-hidden="true"></i>
-            <h2>Lorem Ipsum</h2>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <i className="fa fa-tachometer" aria-hidden="true"></i>
-            <h2>Lorem Ipsum</h2>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <i className="fa fa-sticky-note-o" aria-hidden="true"></i>
-            <h2>Lorem Ipsum</h2>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <i className="fa fa-youtube-play" aria-hidden="true"></i>
-            <h2>Lorem Ipsum</h2>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
-        <div className="card">
-          <div className="card-content">
-            <i className="fa fa-anchor" aria-hidden="true"></i>
-            <h2>Lorem Ipsum</h2>
-            <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
-          </div>
-        </div>
+        <HomeCardsC icon={<i class="fa-brands fa-dribbble"></i>} heading="Lorem Ipsum" para="Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi" />
+        <HomeCardsC icon={<i class="fa-regular fa-file-lines"></i>} heading="Sed Perspiciatis" para="Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore" />
+        <HomeCardsC icon={<i class="fa-solid fa-gauge-high"></i>} heading="Magni Dolores" para="Excepteur sint occaecat cupidatat non proident, sunt in culpa qui official" />
+        <HomeCardsC icon={<i class="fa-solid fa-layer-group"></i>} heading="Nemo Enim" para="At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis" />
+        <HomeCardsC icon={<i class="fa-solid fa-tv"></i>} heading="Dele Cardo" para="Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur" />
+        <HomeCardsC icon={<i class="fa-solid fa-torii-gate"></i>} heading="Divera Don" para="Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur" />
       </section>
       {/* <!-- Cards Ends --> */}
       {/* <!-- ^ Footer Card start --> */}
-    <section className="fcards">
+      <section className="fcards">
         <div className="fcard pic1">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic2">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic3">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic4">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic5">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic6">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic7">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
         <div className="fcard pic8">
-            <section className="fcard_content">
-                <h3>Hello</h3>
-                <p>Lorem ipsum dolor sit amet.</p>
-            </section>
+          <section className="fcard_content">
+            <h3>Hello</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </section>
         </div>
-    </section>
-    {/* <!-- ^ Footer Card end --> */}
+      </section>
+      {/* <!-- ^ Footer Card end --> */}
       {/* <!-- Clients Starts --> */}
       <section className="clients">
         <h1>Clients</h1>
@@ -150,10 +115,10 @@ function Home() {
         <div className="image" style={{ borderTop: "none" }}>
           <img src="https://bootstrapmade.com/demo/templates/Company/assets/img/clients/client-5.png" alt="" />
         </div>
-        <div className="image" style={{ borderTop: "none", borderLeft : "none", borderRight: "none" }}>
+        <div className="image" style={{ borderTop: "none", borderLeft: "none", borderRight: "none" }}>
           <img src="https://bootstrapmade.com/demo/templates/Company/assets/img/clients/client-6.png" alt="" />
         </div>
-        <div className="image" style={{ borderTop: "none",borderRight: "none" }}>
+        <div className="image" style={{ borderTop: "none", borderRight: "none" }}>
           <img src="https://bootstrapmade.com/demo/templates/Company/assets/img/clients/client-7.png" alt="" />
         </div>
         <div className="image" style={{ borderTop: "none" }}>

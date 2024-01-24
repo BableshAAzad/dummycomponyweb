@@ -1,0 +1,22 @@
+/* ~------------------Button footer-------------------- */
+.cardBtnB {
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.cardBtnB .cartButtonB {
+    font-size: 20px;
+    padding: 8px 15PX;
+    border: none;
+    margin-right: 8PX;
+}
+
+.cardBtnB .cartButtonB:hover {
+    background-color: #1bbd36;
+    color: white;
+}
+
+.cardBtnB .cartButtonBactive {
+    background-color: #1bbd36;
+    color: white;
+}

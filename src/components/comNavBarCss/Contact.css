@@ -4,13 +4,13 @@
     background-color: #1bbd36;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 10px;
     color: white;
     margin-top: 100px;
 }
 
 .contact-heading .contactH {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 .contact-heading p {

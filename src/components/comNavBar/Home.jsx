@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import "./../comNavBarCss/Home.css"
 import HomeCardsC from '../HomeCards/HomeCardsC';
+import FooterCards from './Fcards/FooterCards';
 
 function Home() {
   return (
@@ -44,58 +45,7 @@ function Home() {
         <HomeCardsC icon={<i class="fa-solid fa-torii-gate"></i>} heading="Divera Don" para="Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur" />
       </section>
       {/* <!-- Cards Ends --> */}
-      {/* <!-- ^ Footer Card start --> */}
-      <section className="fcards">
-        <div className="fcard pic1">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic2">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic3">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic4">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic5">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic6">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic7">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-        <div className="fcard pic8">
-          <section className="fcard_content">
-            <h3>Hello</h3>
-            <p>Lorem ipsum dolor sit amet.</p>
-          </section>
-        </div>
-      </section>
-      {/* <!-- ^ Footer Card end --> */}
+      <FooterCards/>
       {/* <!-- Clients Starts --> */}
       <section className="clients">
         <h1>Clients</h1>

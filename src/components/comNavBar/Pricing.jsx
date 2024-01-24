@@ -1,14 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import "./../comNavBarCss/Pricing.css"
+import BreadCrumbC from './BreadCrumb/BreadCrumbC'
 
 function Pricing() {
   return (
     <>
-    <div className="pricing-heading">
-        <p>Pricing</p>
-        <p>Home / Pricing</p>
-    </div>
+    <BreadCrumbC heading="Pricing" />
       <section className="pricing">
         <div className="card">
           <div className="card-header">

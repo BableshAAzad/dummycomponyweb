@@ -1,0 +1,13 @@
+
+/* cards starts */
+.cards
+{
+    /* border: 2px solid red; */
+    background-color: rgba(211, 211, 211, 0.307);
+    padding: 20px 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+/* cards ends */

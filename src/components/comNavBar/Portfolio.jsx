@@ -1,10 +1,13 @@
 import React from 'react'
+import BreadCrumbC from './BreadCrumb/BreadCrumbC'
+import FooterCards from './Fcards/FooterCards'
 
 function Portfolio() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <BreadCrumbC heading="Portfolio" />
+      <FooterCards/>
+    </>
   )
 }
 

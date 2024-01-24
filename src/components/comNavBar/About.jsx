@@ -1,10 +1,11 @@
 import React from 'react'
+import BreadCrumbC from './BreadCrumb/BreadCrumbC'
 
 function About() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <BreadCrumbC heading="About" />
+    </>
   )
 }
 

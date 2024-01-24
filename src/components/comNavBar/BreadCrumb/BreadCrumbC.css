@@ -1,0 +1,17 @@
+.contact-heading {
+    background-color: #1bbd36;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+    margin-top: 100px;
+}
+
+.contact-heading .contactH {
+    font-size: 30px;
+}
+
+.contact-heading p {
+    font-size: 23px;
+}
+/*^------------------------------------- */

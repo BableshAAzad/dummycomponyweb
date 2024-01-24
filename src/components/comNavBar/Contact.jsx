@@ -5,7 +5,7 @@ import ContactForm from '../comNavBarCss/contact/ContactForm'
 
 function Contact() {
   return (
-    <div>
+    <>
       {/* <!-- * location email contact ----------satart----- --> */}
 
       <div className="contact-heading">
@@ -26,7 +26,7 @@ function Contact() {
         </div>
       </section>
       <ContactForm/>
-    </div>
+    </>
   )
 }
 
